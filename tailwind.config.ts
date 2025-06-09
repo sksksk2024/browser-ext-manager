@@ -132,18 +132,17 @@ module.exports = {
         bounceCombo: 'bounceCombo 3.5s forwards',
       },
       colors: {
-        'cyan-light': '#00E6E6',
-        'green-light': '#00D26A',
-        'cyan-dark': '#00B3B3',
-        'green-dark': '#00A656',
-        'background-dark': '#0A192F',
-        'background-light': '#F5F7FA',
-        highlight: '#E0F7F7',
-        // highlight: '#F4D06F',
-        warning: '#FF8243',
-        textis: '#000',
-        'snow-gray': '#F1F3F2',
-        // textis: '#505050',
+        'neutral-900': 'hsl(227, 75%, 14%)',
+        'neutral-800': 'hsl(226, 25%, 17%)',
+        'neutral-700': 'hsl(225, 23%, 24%)',
+        'neutral-600': 'hsl(226, 11%, 37%)',
+        'neutral-300': 'hsl(0, 0%, 78%)',
+        'neutral-200': 'hsl(217, 61%, 90%)',
+        'neutral-100': 'hsl(0, 0%, 93%)',
+        'neutral-0': 'hsl(200, 60%, 99%)',
+        'red-700': 'hsl(3, 77%, 44%)',
+        'red-500': 'hsl(3, 71%, 56%)',
+        'red-400': 'hsl(3, 86%, 64%)',
       },
       translate: {
         '1.0625': '17rem',
@@ -423,18 +422,12 @@ module.exports = {
         '800I': '50rem',
       },
       backgroundImage: {
-        // Light Gradients (first is used)
+        'light-gradient': 'linear-gradient(180deg, #ebf2fc 0%, #eef8f9 100%)',
+        'dark-gradient': 'linear-gradient(180deg, #040918 0%, #091540 100%)',
+
+        // Bonus
         'green-cyan-light':
           'linear-gradient(to bottom right, #00D26A, #00E6E6)',
-        // 'cyan-green-light': 'linear-gradient(to right, #00E6E6, #00D26A)',
-        // 'soft-light': 'linear-gradient(to bottom, #ffffff, #00E6E6, #00D26A)',
-        // Black Gradients
-        'deep-dark':
-          'linear-gradient(135deg, #00A656 0%, #0A192F 50%, #00B3B3 100%)',
-        // 'cyan-green-dark': 'linear-gradient(to right, #00B3B3, #00A656)',
-        // 'subtle-dark': 'linear-gradient(to bottom, #0A192F, #00B3B3, #00A656)',
-        // 'deep-dark-transition':
-        //   'linear-gradient(135deg, #00A656 0%, #0A192F 50%, #00B3B3 100%)',
       },
       padding: {
         '1.2P': '1.2rem',
@@ -474,8 +467,11 @@ module.exports = {
       borderRadius: {
         '5BR': '0.3125rem',
         '10BR': '0.625rem',
+        '16BR': '1rem',
         '20BR': '1.25rem',
+        '24BR': '1.5rem',
         '30BR': '1.875rem',
+        '32BR': '2rem',
         '40BR': '2.5rem',
         '50BR': '3.125rem',
         '80BR': '5rem',

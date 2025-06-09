@@ -28,7 +28,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/app/moreblogs/distractions/page.mdx"
+    "src/app/moreblogs/distractions/page.mdx",
+    "src/components/Main.jsx"
   ],
   "exclude": ["node_modules"]
 }

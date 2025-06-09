@@ -22,9 +22,7 @@ export default function RootLayout({
         <link rel="icon" href="/cotaFavicon.svg" sizes="32x32" />
         <link rel="apple-touch-icon" href="/cotaFavicon.svg" sizes="32x32" />
       </head>
-      <body className={`antialiased relative bg-background-dark`}>
-        {children}
-      </body>
+      <body className={`antialiased relative`}>{children}</body>
     </html>
   );
 }
